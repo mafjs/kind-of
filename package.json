@@ -1,0 +1,28 @@
+{
+  "name": "maf-kind-of",
+  "version": "0.0.0",
+  "description": "kind-of package without buffer type checking",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1",
+    "test:fast": "./node_modules/.bin/tap test/unit -J",
+    "test:cov": "npm test -- --coverage-report=html",
+    "postversion": "git push origin && git push --tags"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafjs/kind-of.git"
+  },
+  "keywords": [],
+  "author": "alekzonder <alekzonder@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafjs/kind-of/issues"
+  },
+  "homepage": "https://github.com/mafjs/kind-of#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
